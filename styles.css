@@ -1,0 +1,178 @@
+/*testCss*/
+/*noClassNoId*/
+body {
+  background-color: white;
+}
+/*withClassWithId*/
+.mainPage {
+  font-family: "times new roman", "serif", "sans-serif";
+  font-size: 100%;
+  text-align: justify;
+}
+#amabeWeb {
+  position: relative;
+  left: 170px;
+  top: 10px;
+}
+#amabeWebParagraph {
+  position: relative;
+  left: 170px;
+  top: 10px;
+}
+#facebookLink {
+  position: relative;
+  left: 170px;
+  top: 5px;
+}
+#amaLogo {
+  border: 1px solid rgb(13, 62, 77);
+  padding: 5px;
+  margin: 2px;
+  max-width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/*kinderCSS*/
+.kinderPage {
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+.kinderPage {
+  border: 1px solid rgb(13, 62, 77);
+  padding: 5px;
+  margin: 2px;
+}
+/*elementaryCSS*/
+.elementaryPage {
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+.elementaryPage {
+  border: 1px solid rgb(13, 62, 77);
+  padding: 5px;
+  margin: 2px;
+}
+/*juniorHighSchoolCSS*/
+.juniorHighPage {
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+.juniorHighPage {
+  border: 1px solid rgb(13, 62, 77);
+  padding: 5px;
+  margin: 2px;
+}
+/*seniorHighSchoolStrandsCSS*/
+.amaStrands {
+  font-size: 20px;
+}
+#seniorHighName {
+  position: relative;
+  top: 50px;
+}
+/*ictCSS*/
+.ictPage {
+  position: relative;
+  top: 50px;
+  background: linear-gradient(45deg, #6a83ac80, #d0c4cf80, #d5b2ad80);
+}
+.ictPage :hover {
+  transform: rotate(0.1deg);
+  transition: ease-in-out(1);
+}
+#ictName {
+  color: #1b2d58;
+}
+#ictParagraph {
+  color: #1b2d58;
+}
+#ictUL {
+  color: #465d88;
+}
+#ictPicture {
+  position: relative;
+  top: -75px;
+  left: 500px;
+  max-height: 400px;
+}
+/*stemCSS*/
+.stemPage {
+  position: relative;
+  top: 70px;
+  background: linear-gradient(135deg, #e7bd8a80, #e6875780, #db4b3a80);
+}
+#stemName {
+  color: #5b000b;
+}
+#stemParagraph {
+  color: #5b000b;
+}
+#stemUL {
+  color: #930014;
+}
+/*abmCSS*/
+.abmPage {
+  position: relative;
+  top: 90px;
+  background: linear-gradient(180deg, #ffb51580, #fded5480, #fff1af80);
+}
+#abmName {
+  color: #ff798c;
+}
+#abmParagraph {
+  color: #ff836f;
+}
+/*hummsCSS*/
+.hummsPage {
+  position: relative;
+  top: 110px;
+  background: linear-gradient(180deg, #e5d7c480, #cfbb9980, #88906380);
+}
+#hummsName {
+  color: #4c3d19;
+}
+#hummsParagraph {
+  color: #4c3d19;
+}
+#hummsUL {
+  color: #354024;
+}
+/*gasCSS*/
+.gasPage {
+  position: relative;
+  top: 130px;
+  background: linear-gradient(90deg, #9fe2bf80, #98ff9880);
+}
+#gasName {
+  color: #9966cc;
+}
+#gasParagraph {
+  color: #c8a2c8;
+}
+/*boxCSS*/
+#seniorHighName,
+.ictPage,
+.stemPage,
+.abmPage,
+.hummsPage,
+.gasPage {
+  border: 1px solid rgb(13, 62, 77);
+  padding: 5px;
+  margin: 2px;
+}
+/*nameCSS*/
+#kinderName,
+#elementaryName,
+#juniorHighName,
+#seniorHighName,
+#ictName,
+#stemName,
+#abmName,
+#hummsName,
+#gasName {
+  text-align: center; 
+}
