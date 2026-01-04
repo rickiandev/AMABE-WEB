@@ -1,6 +1,6 @@
 /*testCss*/
 /*noClassNoId*/
-body {
+html {
   background-color: white;
 }
 /*withClassWithId*/
@@ -8,6 +8,12 @@ body {
   font-family: "times new roman", "serif", "sans-serif";
   font-size: 100%;
   text-align: justify;
+}
+.link {
+  text-decoration: underline;
+}
+.link :active{
+  color: red;
 }
 #amabeWeb {
   position: relative;
@@ -31,6 +37,12 @@ body {
   max-width: 150px;
   position: absolute;
   top: 10px;
+}
+/*background pictures*/
+#ictName {
+  background-size: 100px;
+  /*background-image: url(Pictures/ictcooking.jpg);*/
+  background-repeat: no-repeat;
 }
 /*kinderCSS*/
 .kinderPage {
@@ -173,5 +185,6 @@ body {
 #abmName,
 #hummsName,
 #gasName {
-  text-align: center; 
+  text-align: center;
+  font-size: 45px;
 }

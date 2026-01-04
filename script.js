@@ -24,6 +24,10 @@ Object.keys(projectLinks).forEach((id) => {
 //add the web pages links here
   const curriculumPages = {
   ictName: "ictPage/ict.html",
+  stemName: "stemPage/stem.html",
+  abmName: "abmPage/abm.html",
+  hummsName: "hummsPage/humms.html",
+  gasName: "gasPage/gas.html",
 };
 
 Object.keys(curriculumPages).forEach((id) => {
