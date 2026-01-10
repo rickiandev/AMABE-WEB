@@ -1,42 +1,45 @@
 /*testCss*/
-/*noClassNoId*/
+/*defaultBackground*/
 html {
   background-color: white;
 }
-/*withClassWithId*/
-.mainPage {
-  font-family: "times new roman", "serif", "sans-serif";
-  font-size: 100%;
-  text-align: justify;
-}
-.link {
-  text-decoration: underline;
-}
-.link :active{
-  color: red;
-}
+/*headerCSS*/
 #amabeWeb {
   position: relative;
-  left: 170px;
-  top: 10px;
 }
-#amabeWebParagraph {
+#amabeWeb > h1 {
   position: relative;
-  left: 170px;
-  top: 10px;
-}
-#facebookLink {
-  position: relative;
-  left: 170px;
-  top: 5px;
+  left: 200px;
 }
 #amaLogo {
   border: 1px solid rgb(13, 62, 77);
   padding: 5px;
   margin: 2px;
   max-width: 150px;
-  position: absolute;
-  top: 10px;
+}
+/*navigationCSS*/
+#amabeWebParagraph {
+  position: relative;
+}
+/*footerCSS*/
+#facebookLink {
+  position: relative;
+}
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+.link:hover {
+  color: red;
+}
+.link:active {
+  color: darkred;
+}
+/*mainCSS*/
+.mainPage {
+  font-family: "times new roman", "serif", "sans-serif";
+  font-size: 100%;
+  text-align: justify;
 }
 /*background pictures*/
 #ictName {
@@ -47,8 +50,6 @@ html {
 /*kinderCSS*/
 .kinderPage {
   font-size: 20px;
-  position: relative;
-  top: 30px;
 }
 .kinderPage {
   border: 1px solid rgb(13, 62, 77);
@@ -58,8 +59,6 @@ html {
 /*elementaryCSS*/
 .elementaryPage {
   font-size: 20px;
-  position: relative;
-  top: 30px;
 }
 .elementaryPage {
   border: 1px solid rgb(13, 62, 77);
@@ -69,8 +68,6 @@ html {
 /*juniorHighSchoolCSS*/
 .juniorHighPage {
   font-size: 20px;
-  position: relative;
-  top: 30px;
 }
 .juniorHighPage {
   border: 1px solid rgb(13, 62, 77);
@@ -83,12 +80,10 @@ html {
 }
 #seniorHighName {
   position: relative;
-  top: 50px;
 }
 /*ictCSS*/
 .ictPage {
   position: relative;
-  top: 50px;
   background: linear-gradient(45deg, #6a83ac80, #d0c4cf80, #d5b2ad80);
 }
 .ictPage :hover {
@@ -113,7 +108,6 @@ html {
 /*stemCSS*/
 .stemPage {
   position: relative;
-  top: 70px;
   background: linear-gradient(135deg, #e7bd8a80, #e6875780, #db4b3a80);
 }
 #stemName {
@@ -128,7 +122,6 @@ html {
 /*abmCSS*/
 .abmPage {
   position: relative;
-  top: 90px;
   background: linear-gradient(180deg, #ffb51580, #fded5480, #fff1af80);
 }
 #abmName {
@@ -140,7 +133,6 @@ html {
 /*hummsCSS*/
 .hummsPage {
   position: relative;
-  top: 110px;
   background: linear-gradient(180deg, #e5d7c480, #cfbb9980, #88906380);
 }
 #hummsName {
@@ -155,7 +147,6 @@ html {
 /*gasCSS*/
 .gasPage {
   position: relative;
-  top: 130px;
   background: linear-gradient(90deg, #9fe2bf80, #98ff9880);
 }
 #gasName {

@@ -10,28 +10,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="mainPage">
-      <div id="amabeWeb">
-        <h1>AMABE WEB</h1>
-      </div>
-      <div id="amabeWebParagraph">
-        <p>
-          <b>AMABE</b> offers
-          <strong>Kinder to Grade 12 Curriculums </strong> with
-          <i>STEM, ABM, ICT, HUMMS, and GAS</i> where you can find the best out
-          of you!
-        </p>
-      </div>
-      <!--amalogoHTML-->
-      <div>
-        <img
-          id="amaLogo"
-          src="/Pictures/amalogo.png"
-        />
-        <p class="link" id="facebookLink">facebook.com/AMABEoflaspinas</p>
-      </div>
+    <!--headerHTML-->
+    <header id="amabeWeb">
+      <img
+        id="amaLogo"
+        src="/Pictures/amalogo.png"
+      />
+      <h1>AMABE WEB</h1>
+    </header>
+    <!--navigationHTML-->
+    <nav id="amabeWebParagraph">
+      <p>
+        <strong>AMABE</strong> offers
+        <strong>Kinder to Grade 12 Curriculums </strong> with
+        <em>STEM, ABM, ICT, HUMMS, and GAS</em> where you can find the best out
+        of you!
+      </p>
+    </nav>
+    <!--mainHTML-->
+    <main class="mainPage">
       <!--kinderCurriculum-->
-      <div class="kinderPage">
+      <section class="kinderPage">
         <h1 id="kinderName">Kinder</h1>
         <p>
           Let your child learn while enjoying their time at school with our
@@ -41,9 +40,9 @@
         <ul>
           <li>placeholder</li>
         </ul>
-      </div>
+      </section>
       <!--elementaryCurriculum-->
-      <div class="elementaryPage">
+      <section class="elementaryPage">
         <h1 id="elementaryName">Elementary</h1>
         <p id="elementaryParagraph">
           Our <b>Elementary Curriculum</b> are filled with to the brim with
@@ -53,22 +52,22 @@
         <ul>
           <li>placeholder</li>
         </ul>
-      </div>
+      </section>
       <!--juniorHighSchoolCurriculum-->
-      <div class="juniorHighPage">
+      <section class="juniorHighPage">
         <h1 id="juniorHighName">Junior High School</h1>
         <p id="juniorHighParagraph">
           Junior High is the First 4 years of a student gathering General Education 
           with Some Specialized Subjects like in TLE where they can learn Computers, 
           Cooking, Electrical Engineering, and other TVL Subjects.
         </p>
-      </div>
+      </section>
       <!--seniorHighSchoolCurriculum-->
-      <div class="seniorHighPage">
+      <section class="seniorHighPage">
         <h1 id="seniorHighName">Senior High School</h1>
-        <div class="amaStrands">
+        <section class="amaStrands">
           <!--ictHTML-->
-          <div class="ictPage">
+          <article class="ictPage">
             <h2 id="ictName">ICT</h2>
             <p id="ictParagraph">
               The Information Communications Technology strand. The Computer
@@ -85,9 +84,9 @@
               id="ictPicture"
               src="/Pictures/ictcooking.jpg"
             />
-          </div>
+          </article>
           <!--stemHTML-->
-          <div class="stemPage">
+          <article class="stemPage">
             <h2 id="stemName">STEM</h2>
             <p id="stemParagraph">
               The Science, Technology, Engineering, and Mathematics strand. The
@@ -99,9 +98,9 @@
               <li>General Chemistry</li>
               <li>General Physics</li>
             </ul>
-          </div>
+          </article>
           <!--abmHTML-->
-          <div class="abmPage">
+          <article class="abmPage">
             <h2 id="abmName">ABM</h2>
             <p id="abmParagraph">
               The Accountancy and Business Management strand. The Math and
@@ -111,9 +110,9 @@
             <ul id="abmuL">
               <li>placeholder</li>
             </ul>
-          </div>
+          </article>
           <!--hummsHTML-->
-          <div class="hummsPage">
+          <article class="hummsPage">
             <h2 id="hummsName">HUMMS</h2>
             <p id="hummsParagraph">
               The Humanities and Social Science strand. Soon to be Police,
@@ -125,9 +124,9 @@
               <li>Trends</li>
               <li>Discipline and Ideas in the Social Sciences</li>
             </ul>
-          </div>
+          </article>
           <!--gasHTML-->
-          <div class="gasPage">
+          <article class="gasPage">
             <h2 id="gasName">GAS</h2>
             <p id="gasParagraph">
               The General Academic Strand. The undecided ones that will be stuck
@@ -136,10 +135,19 @@
             <ul id="gasUL">
               <li>placeholder</li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+          </article>
+        </section>
+      </section>
+    </main>
+    <!--footerHTML-->
+    <footer>
+      <!--amalogoHTML-->
+      <adress>
+        <p class="link" id="facebookLink">facebook.com/AMABEoflaspinas</p>
+        <p>Email:<a href="mailto:rickianlive@gmail.com" target="_blank">rickianlive@gmail.com</a></p>
+      </adress>
+      <p>&copy;<small>2025 Rick Ian Jumawan</small></p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

@@ -17,7 +17,7 @@ Object.keys(projectLinks).forEach((id) => {
 
   element.style.cursor = "pointer";
   element.addEventListener("click", () => {
-    window.open(projectLinks[id], "_parent");
+    window.open(projectLinks[id], "_blank");
   });
 });
 //testScriptWebPages
