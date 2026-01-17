@@ -48,28 +48,28 @@ html {
   background-repeat: no-repeat;
 }
 /*kinderCSS*/
-.kinderPage {
+.kinderSection {
   font-size: 20px;
 }
-.kinderPage {
+.kinderSection {
   border: 1px solid rgb(13, 62, 77);
   padding: 5px;
   margin: 2px;
 }
 /*elementaryCSS*/
-.elementaryPage {
+.elementarySection {
   font-size: 20px;
 }
-.elementaryPage {
+.elementarySection {
   border: 1px solid rgb(13, 62, 77);
   padding: 5px;
   margin: 2px;
 }
 /*juniorHighSchoolCSS*/
-.juniorHighPage {
+.juniorHighSection {
   font-size: 20px;
 }
-.juniorHighPage {
+.juniorHighSection {
   border: 1px solid rgb(13, 62, 77);
   padding: 5px;
   margin: 2px;
@@ -82,13 +82,12 @@ html {
   position: relative;
 }
 /*ictCSS*/
-.ictPage {
+.ictArticle {
   position: relative;
   background: linear-gradient(45deg, #6a83ac80, #d0c4cf80, #d5b2ad80);
 }
-.ictPage :hover {
-  transform: rotate(0.1deg);
-  transition: ease-in-out(1);
+.ictArticle :hover {
+  color: #1b2d58;
 }
 #ictName {
   color: #1b2d58;
@@ -106,7 +105,7 @@ html {
   max-height: 400px;
 }
 /*stemCSS*/
-.stemPage {
+.stemArticle {
   position: relative;
   background: linear-gradient(135deg, #e7bd8a80, #e6875780, #db4b3a80);
 }
@@ -120,7 +119,7 @@ html {
   color: #930014;
 }
 /*abmCSS*/
-.abmPage {
+.abmArticle {
   position: relative;
   background: linear-gradient(180deg, #ffb51580, #fded5480, #fff1af80);
 }
@@ -131,7 +130,7 @@ html {
   color: #ff836f;
 }
 /*hummsCSS*/
-.hummsPage {
+.hummsArticle {
   position: relative;
   background: linear-gradient(180deg, #e5d7c480, #cfbb9980, #88906380);
 }
@@ -145,7 +144,7 @@ html {
   color: #354024;
 }
 /*gasCSS*/
-.gasPage {
+.gasArticle {
   position: relative;
   background: linear-gradient(90deg, #9fe2bf80, #98ff9880);
 }
@@ -157,11 +156,11 @@ html {
 }
 /*boxCSS*/
 #seniorHighName,
-.ictPage,
-.stemPage,
-.abmPage,
-.hummsPage,
-.gasPage {
+.ictArticle,
+.stemArticle,
+.abmArticle,
+.hummsArticle,
+.gasArticle {
   border: 1px solid rgb(13, 62, 77);
   padding: 5px;
   margin: 2px;

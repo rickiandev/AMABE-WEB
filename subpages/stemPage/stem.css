@@ -3,29 +3,34 @@ html {
     background-color: whitesmoke;
 }
 /*boxes*/
-#ictSubPage,
-#ictMajorSubjects {
+#stemSubPage,
+#stemMajorSubjects {
     border: 1px solid rgb(13, 62, 77);
     padding: 5px;
     margin: 2px;
 }
 /*textCSS*/
-#ictSubPageName{
-    color:#1b2d58;
+#stemSubPageName{
+    color:#5b000b;
     font-size: 50px;
     text-align: center;
 }
-#ictSubPageParagraph {
-    color: #465d88;
+#stemSubPageParagraph {
+    color: #5b000b;
     font-size: 35px;
     text-align: justify;
 }
+#backToHomeLink {
+    font-size: 25px;
+    color: #930014;
+    text-decoration: underline;
+}
 .subjectName {
     font-size: 40px;
-    color: #1b2d58;
+    color: #5b000b;
 }
 .subjectDescription {
     font-size: 30px;
-    color: #465d88;
+    color: #930014;
     text-align: justify;
 }

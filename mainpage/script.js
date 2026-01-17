@@ -1,33 +1,34 @@
 //testScript
 console.log("testPrompt");
-const name = "Rick Ian Jumawan";
-console.log(name);
+const me = "Rick Ian Jumawan";
+console.log(me);
 let count = "1";
 let pCount = "2";
 console.log(count + pCount);
 //testScriptLinks
 //add the external links here
-const projectLinks = {
+const externalLinks = {
   facebookLink: "https://web.facebook.com/AMABEoflaspinas",
+  gitHubProfileLink: "https://github.com/rickiandev",
 };
 
-Object.keys(projectLinks).forEach((id) => {
+Object.keys(externalLinks).forEach((id) => {
   const element = document.getElementById(id);
   if (!element) return;
 
   element.style.cursor = "pointer";
   element.addEventListener("click", () => {
-    window.open(projectLinks[id], "_blank");
+    window.open(externalLinks[id], "_blank");
   });
 });
 //testScriptWebPages
 //add the web pages links here
   const curriculumPages = {
-  ictName: "ictPage/ict.html",
-  stemName: "stemPage/stem.html",
-  abmName: "abmPage/abm.html",
-  hummsName: "hummsPage/humms.html",
-  gasName: "gasPage/gas.html",
+  ictName: "/subpages/ictPage/ict.html",
+  stemName: "/subpages/stemPage/stem.html",
+  abmName: "/subpages/abmPage/abm.html",
+  hummsName: "/subpages/hummsPage/humms.html",
+  gasName: "/subpages/gasPage/gas.html",
 };
 
 Object.keys(curriculumPages).forEach((id) => {
